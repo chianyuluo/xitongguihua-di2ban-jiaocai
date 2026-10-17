@@ -15,7 +15,9 @@ description: "系规（系统规划与管理师）第2版教程框架型备考�
 - **带章号** — 说「ch12」，我加载该章文件
 - **浏览** — 问「有哪些章节」，看完整索引
 - **问考情/考纲/怎么复习** — 说「这章考什么」「怎么备考」，我读取 `kaogan_map.md` / `kaopin_frequency.md` / `exam_format.md` / `prep_strategy.md`
-- **问案例必背/案例怎么答** — 说「案例必背」「案例找错怎么答」「案例计算」，我读取 `case_must_know.md`（答题主题+8过程找错+计算+checklist）
+- **问案例必背/案例怎么答** — 说「案例必背」「案例找错怎么答」「案例计算」「案例模板」，我读取 `case_must_know.md`（答题主题+8过程找错+计算+checklist）与 `case_templates.md`（填空式答题模板）
+- **问考前冲刺/必背清单** — 说「考前必背」「冲刺背什么」，我读取 `sprint_must_know.md`（数字/口诀/易混/按章/法规超浓缩清单）
+- **问论文素材/论文怎么写** — 说「论文素材」「论文背景模板」「论文量化」，我读取 `lunwen_material.md`（项目背景/过渡/各主题正文框架/量化成效/避坑）
 
 > **考试导向提示**：复习与答题请优先权重 🔴掌握章——**第 12 章（服务管理，综合约 22–23 题）**、**第 4–10 章（规划方法）**、**第 9 章（安全）**、**第 24 章（法规）** 合计占综合近 90%。各章末尾已附 📌考情/⚠️陷阱/🔢必背 三栏。
 
@@ -94,9 +96,12 @@ description: "系规（系统规划与管理师）第2版教程框架型备考�
 - **IT 治理（COBIT/ISO38500）** → ch11
 - **诺兰模型** → ch01
 - **新一代信息技术 7 大** → ch01
-- **论文写法** → cheatsheet, patterns
+- **论文写法** → cheatsheet, patterns, lunwen_material
+- **论文素材/背景/量化** → lunwen_material
 - **案例找错** → patterns, case_must_know
-- **案例必背/答题** → case_must_know
+- **案例必背/答题** → case_must_know, case_templates
+- **案例答题模板** → case_templates
+- **考前必背/冲刺清单** → sprint_must_know
 - **各领域规划** → ch18–ch23
 
 ## Supporting Files
@@ -114,6 +119,13 @@ description: "系规（系统规划与管理师）第2版教程框架型备考�
 
 **案例专项（必背+答题）**
 - [case_must_know.md](case_must_know.md) — 案例分析必背手册：答题框架(四要素对照/8过程找错/规划方法/生命周期/安全)、12个案例主题必背、高频计算、精选必背问答、答题 checklist
+- [case_templates.md](case_templates.md) — 案例分析答题模板：找错改正/简答/计算/情景措施四类填空式模板 + 通用规范 + 上场 checklist
+
+**论文专项（素材+写法）**
+- [lunwen_material.md](lunwen_material.md) — 论文实践素材库：四段式格式、项目背景/过渡模板、各主题(A–F)正文框架、量化成效素材、真实政务/企业项目可填模板、避坑
+
+**考前冲刺（超浓缩清单）**
+- [sprint_must_know.md](sprint_must_know.md) — 考前必背知识点：必背数字公式、口诀框架、易混对、按章快背、法规速记、考试硬规矩
 
 **框架/术语**
 - [glossary.md](glossary.md) — 核心术语与定义（标注章号）
