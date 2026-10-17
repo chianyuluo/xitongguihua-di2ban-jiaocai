@@ -14,6 +14,9 @@ description: "系规（系统规划与管理师）第2版教程框架型备考�
 - **带主题** — 说「四要素」「服务生命周期」「规划方法」「等保2.0」等，我定位并读取对应章节
 - **带章号** — 说「ch12」，我加载该章文件
 - **浏览** — 问「有哪些章节」，看完整索引
+- **问考情/考纲/怎么复习** — 说「这章考什么」「怎么备考」，我读取 `kaogan_map.md` / `kaopin_frequency.md` / `exam_format.md` / `prep_strategy.md`
+
+> **考试导向提示**：复习与答题请优先权重 🔴掌握章——**第 12 章（服务管理，综合约 22–23 题）**、**第 4–10 章（规划方法）**、**第 9 章（安全）**、**第 24 章（法规）** 合计占综合近 90%。各章末尾已附 📌考情/⚠️陷阱/🔢必背 三栏。
 
 > 注意：本 skill 是**框架/原则/技法/反模式层**，不是教材全文。需要逐句原文时，底层 clean 正文在 `D:\WorkBuddy\Claw\01_备考资料\系规\`（24 章 markdown），本 skill 每条都标注了对应章号，可直接回查。
 
@@ -96,9 +99,20 @@ description: "系规（系统规划与管理师）第2版教程框架型备考�
 
 ## Supporting Files
 
+**考试导向（考纲/考频/备考）**
+- [exam_format.md](exam_format.md) — 考试科目、时长、范围、合格线、论文改革
+- [kaogan_map.md](kaogan_map.md) — 考纲考试目标/要求 + 24 章逐章掌握度与考法映射
+- [kaopin_frequency.md](kaopin_frequency.md) — 综合知识题量分布、高频章 Top、案例/论文范围
+- [prep_strategy.md](prep_strategy.md) — 三阶段备考路线图与权重分配
+
+**硬货（数字/陷阱/速记）**
+- [must_know.md](must_know.md) — 必背公式、数字、级别、单位进制
+- [zhenti_traps.md](zhenti_traps.md) — 高频易混对与命题陷阱
+- [cheatsheet.md](cheatsheet.md) — 口诀速记、阶段归属、决策规则（含数字速记板块）
+
+**框架/术语**
 - [glossary.md](glossary.md) — 核心术语与定义（标注章号）
 - [patterns.md](patterns.md) — 案例找错反模式、论文高分技法、规划方法选型套路
-- [cheatsheet.md](cheatsheet.md) — 口诀速记、阶段归属、决策规则
 
 ---
 
