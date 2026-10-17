@@ -15,6 +15,7 @@ description: "系规（系统规划与管理师）第2版教程框架型备考�
 - **带章号** — 说「ch12」，我加载该章文件
 - **浏览** — 问「有哪些章节」，看完整索引
 - **问考情/考纲/怎么复习** — 说「这章考什么」「怎么备考」，我读取 `kaogan_map.md` / `kaopin_frequency.md` / `exam_format.md` / `prep_strategy.md`
+- **问案例必背/案例怎么答** — 说「案例必背」「案例找错怎么答」「案例计算」，我读取 `case_must_know.md`（答题主题+8过程找错+计算+checklist）
 
 > **考试导向提示**：复习与答题请优先权重 🔴掌握章——**第 12 章（服务管理，综合约 22–23 题）**、**第 4–10 章（规划方法）**、**第 9 章（安全）**、**第 24 章（法规）** 合计占综合近 90%。各章末尾已附 📌考情/⚠️陷阱/🔢必背 三栏。
 
@@ -94,7 +95,8 @@ description: "系规（系统规划与管理师）第2版教程框架型备考�
 - **诺兰模型** → ch01
 - **新一代信息技术 7 大** → ch01
 - **论文写法** → cheatsheet, patterns
-- **案例找错** → patterns
+- **案例找错** → patterns, case_must_know
+- **案例必背/答题** → case_must_know
 - **各领域规划** → ch18–ch23
 
 ## Supporting Files
@@ -109,6 +111,9 @@ description: "系规（系统规划与管理师）第2版教程框架型备考�
 - [must_know.md](must_know.md) — 必背公式、数字、级别、单位进制
 - [zhenti_traps.md](zhenti_traps.md) — 高频易混对与命题陷阱
 - [cheatsheet.md](cheatsheet.md) — 口诀速记、阶段归属、决策规则（含数字速记板块）
+
+**案例专项（必背+答题）**
+- [case_must_know.md](case_must_know.md) — 案例分析必背手册：答题框架(四要素对照/8过程找错/规划方法/生命周期/安全)、12个案例主题必背、高频计算、精选必背问答、答题 checklist
 
 **框架/术语**
 - [glossary.md](glossary.md) — 核心术语与定义（标注章号）
