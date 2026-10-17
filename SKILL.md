@@ -64,7 +64,7 @@ description: "系规（系统规划与管理师）第2版备考 Skill Pack：24�
 | 触发 | 教练模块 |
 |---|---|
 | 错题 / 选了A答案是C | [01-mcq-diagnoser](coaches/01-mcq-diagnoser.md) |
-| 四要素是什么/怎么展开 | [02-siyaosu-framework-coach](coaches/02-siyaosu-coach.md) |
+| 四要素是什么/怎么展开 | [02-siyaosu-framework-coach](coaches/02-siyaosu-framework-coach.md) |
 | 8过程背不出/事件问题分不清 | [03-process8-coach](coaches/03-process8-coach.md) |
 | 5阶段顺序/退役终止 | [04-lifecycle-coach](coaches/04-lifecycle-coach.md) |
 | BSP/CSF/SST怎么选 | [05-planning-method-coach](coaches/05-planning-method-coach.md) |
