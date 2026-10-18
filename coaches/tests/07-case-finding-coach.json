@@ -1,0 +1,23 @@
+[
+  {
+    "id": "case-01",
+    "input": "我只看出没服务台、版本上线没审批，其他没发现。",
+    "expected_trigger": "第1层四要素+8过程扫描",
+    "expected_not": "直接列出配置管理、问题管理、服务报告",
+    "pass_criteria": "让考生按人—资—技—过与 8 过程逐项自报信号"
+  },
+  {
+    "id": "case-02",
+    "input": "问题是客户投诉响应慢。",
+    "expected_trigger": "第3层现象转管理动作",
+    "expected_not": "直接改成'未签 SLA'",
+    "pass_criteria": "追问'响应慢是结果，缺少哪个具体管理动作？'"
+  },
+  {
+    "id": "case-03",
+    "input": "改进措施是加强服务管理，提高满意度。",
+    "expected_trigger": "第3层措施可执行性",
+    "expected_not": "直接写出具体措施",
+    "pass_criteria": "追问'谁、何时、做什么、产出什么？'"
+  }
+]

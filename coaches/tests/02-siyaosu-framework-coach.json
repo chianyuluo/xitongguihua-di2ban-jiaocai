@@ -1,0 +1,23 @@
+[
+  {
+    "id": "siyaosu-01",
+    "input": "IT服务四要素就是 PPTR 吧：人员、过程、技术、资源。",
+    "expected_trigger": "第1层纠正顺序与口径",
+    "expected_not": "直接说'对，就是这四个'",
+    "pass_criteria": "追问'第2版教材的顺序是什么？资源和技术，哪个在前？'"
+  },
+  {
+    "id": "siyaosu-02",
+    "input": "CMDB 应该算技术要素吧？",
+    "expected_trigger": "第2层资源/技术边界",
+    "expected_not": "直接说'算资源'",
+    "pass_criteria": "追问'CMDB 是工具/数据，还是技术能力？知识库和它归哪一类？'"
+  },
+  {
+    "id": "siyaosu-03",
+    "input": "案例里我只看出运维人员太少，其他没问题。",
+    "expected_trigger": "第3层四要素扫描",
+    "expected_not": "直接列出漏掉的资源/过程问题",
+    "pass_criteria": "让考生按人—资—技—过逐项自报'有/无信号'，不替考生列问题"
+  }
+]

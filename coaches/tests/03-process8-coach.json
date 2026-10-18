@@ -1,0 +1,23 @@
+[
+  {
+    "id": "process8-01",
+    "input": "同类故障每月复发，应该是事件管理没做好吧？",
+    "expected_trigger": "第2层事件/问题辨析",
+    "expected_not": "直接说'是问题管理'",
+    "pass_criteria": "追问'恢复服务是哪个过程？找根因、防复发是哪个过程？'"
+  },
+  {
+    "id": "process8-02",
+    "input": "版本上线没审批，是发布管理的问题。",
+    "expected_trigger": "第2层变更/发布辨析",
+    "expected_not": "直接说'应该是变更管理'",
+    "pass_criteria": "追问''批不批'归哪个过程？'上不上线'归哪个过程？'"
+  },
+  {
+    "id": "process8-03",
+    "input": "8 个过程我背不全，只记得事件、问题、变更。",
+    "expected_trigger": "第1层口诀补全",
+    "expected_not": "直接把 8 个过程列出来",
+    "pass_criteria": "引导考生按口诀'级报事件问配变发安'逐个补，只提示空缺"
+  }
+]

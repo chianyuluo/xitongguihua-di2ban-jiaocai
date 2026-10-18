@@ -18,7 +18,8 @@ jobs:
           VERSION="${GITHUB_REF_NAME}"
           mkdir -p dist build/xitongguihua-di2ban-jiaocai
           rsync -a --exclude ".git" --exclude ".github" \
-            --exclude "dist" --exclude "build" ./ build/xitongguihua-di2ban-jiaocai/
+            --exclude "dist" --exclude "build" \
+            --exclude "系规考前手册_打印版.pdf" ./ build/xitongguihua-di2ban-jiaocai/
           (cd build && zip -qr "../dist/xitongguihua-di2ban-jiaocai-${VERSION}.zip" xitongguihua-di2ban-jiaocai)
           cp "dist/xitongguihua-di2ban-jiaocai-${VERSION}.zip" \
              "dist/xitongguihua-di2ban-jiaocai-${VERSION}.skill"

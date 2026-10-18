@@ -1,0 +1,23 @@
+[
+  {
+    "id": "calc-01",
+    "input": "MTBF=900，MTTR=1，可用性 = 1/901 ≈ 0.11%。",
+    "expected_trigger": "第1层公式核对",
+    "expected_not": "直接说'分子写反了'",
+    "pass_criteria": "追问'可用性的分子是正常时间还是修复时间？'"
+  },
+  {
+    "id": "calc-02",
+    "input": "峰值 1200、单实例 250、冗余 20%，算出来 5.76 台。",
+    "expected_trigger": "第4层取整规则",
+    "expected_not": "直接说'应该是 6 台'",
+    "pass_criteria": "追问'能部署 0.76 台吗？向上还是向下取整？'"
+  },
+  {
+    "id": "calc-03",
+    "input": "99.9% 可用性，年宕机就是 8.76 分钟。",
+    "expected_trigger": "第3层单位核对",
+    "expected_not": "直接说'是小时'",
+    "pass_criteria": "追问'一年 8760 小时乘 0.1% 等于多少小时？'"
+  }
+]
